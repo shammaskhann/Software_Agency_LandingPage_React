@@ -1,0 +1,62 @@
+/* Add these to your global CSS file */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Blob animation */
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+@font-face {
+  font-family: 'Xirod';
+  src: url('../fonts/Xirod.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.animate-blob {
+  animation: blob 8s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 4s;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6C63FF;
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #1a202c;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #4D44DB;
+}
