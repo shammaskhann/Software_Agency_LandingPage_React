@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Software_Agency_LandingPage_React_build/static/css/main.8b629971.css",
+    "main.js": "/Software_Agency_LandingPage_React_build/static/js/main.ca4fa51e.js",
+    "static/media/mockup.png": "/Software_Agency_LandingPage_React_build/static/media/mockup.aa509eec76ef361ed09e.png",
+    "static/media/logo.png": "/Software_Agency_LandingPage_React_build/static/media/logo.f52393ecfaa7f7ec5e31.png",
+    "static/media/Xirod.otf": "/Software_Agency_LandingPage_React_build/static/media/Xirod.b0023a75619009be9506.otf",
+    "index.html": "/Software_Agency_LandingPage_React_build/index.html",
+    "main.8b629971.css.map": "/Software_Agency_LandingPage_React_build/static/css/main.8b629971.css.map",
+    "main.ca4fa51e.js.map": "/Software_Agency_LandingPage_React_build/static/js/main.ca4fa51e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b629971.css",
+    "static/js/main.ca4fa51e.js"
+  ]
+}
