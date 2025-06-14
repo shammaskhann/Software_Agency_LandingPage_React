@@ -63,7 +63,7 @@ const Header = () => {
           </nav>
 
           {/* Theme Toggle and Mobile Menu Button */}
-          <div className="flex items-center space-x-4">
+          {/* <div className="flex items-center space-x-4">
             <button
               onClick={toggleTheme}
               className="p-2 rounded-full text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
@@ -77,7 +77,7 @@ const Header = () => {
             >
               {isOpen ? <FiX size={24} /> : <FiMenu size={24} />}
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
 

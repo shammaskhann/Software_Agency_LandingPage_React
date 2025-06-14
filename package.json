@@ -9,6 +9,7 @@
     "react-scroll": "^1.9.3",
     "yup": "^1.6.1"
   },
+  "homepage": "https://shammaskhann.github.io/Software_Agency_LandingPage_React/",
   "name": "dexter-apks-landing",
   "version": "1.0.0",
   "main": "tailwind.config.js",
