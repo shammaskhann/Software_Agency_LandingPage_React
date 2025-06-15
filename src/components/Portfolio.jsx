@@ -1,46 +1,60 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FiExternalLink, FiGithub } from 'react-icons/fi';
+import frame13 from '../assets/images/Frame2013.jpeg';
+import frame14 from '../assets/images/Frame2014.jpeg';
+import frame15 from '../assets/images/Frame2015.jpeg';
+
+import frame16 from '../assets/images/Frame2016.jpeg';
+
+const projects = [
+  {
+    title: "Aqare",
+    description:
+      "Aqare is a sophisticated bi-lingual real estate platform designed for the Saudi market, offering seamless property listings, user authentication, map integration, and government API (NAFATH) connectivity. The solution supports both English and Arabic, and features advanced auction capabilities, delivering a comprehensive experience for buyers and sellers.",
+    tags: ["Flutter", "GetX", "REST-API"],
+    image: frame14,
+    links: [
+      { icon: <FiExternalLink />, url: "https://play.google.com/store/apps/details?id=net.aqare.aqareapp&pcampaignid=web_share" },
+      { icon: <FiExternalLink />, url: "https://apps.apple.com/sa/app/aqare/id6741023384" }
+    ]
+  },
+  {
+    title: "Map Off",
+    description:
+      "Map Off is a dual-language mobile application that empowers users to explore locations with custom markers, guest access, dynamic linking, and interactive features such as favorites, view counts, and reviews. The platform is engineered for scalability and user engagement.",
+    tags: ["Flutter", "GetX", "REST-API"],
+    image: frame15,
+    links: [
+      { icon: <FiExternalLink />, url: "https://play.google.com/store/apps/details?id=net.mapoff.mapoffapp" }
+    ]
+  },
+  {
+    title: "Smileline Dental Clinic App",
+    description:
+      "A full-stack mobile solution for dental clinics, Smileline streamlines appointment scheduling, automated reminders, WhatsApp integration, invoicing, prescription management, and patient history. The platform supports patients, doctors, and administrators, enhancing operational efficiency and patient care.",
+    tags: ["Flutter", "Firebase", "GetX"],
+    image: frame16,
+    links: []
+  },
+  {
+    title: "Car Fix Up",
+    description:
+      "Car Fix Up is a robust dual-role application for customers and vendors in the automotive service industry. It features appointment scheduling, live truck tracking for towing, real-time repair estimates, and emergency video calling. Built with Firebase and GetX, the app ensures secure authentication, real-time data, and seamless navigation.",
+    tags: ["Flutter", "Firebase", "GetX"],
+    image: frame13,
+    links: [
+      { icon: <FiGithub />, url: "https://github.com/yourusername/car_fix_up" }
+    ]
+  }
+];
 
 const Portfolio = () => {
-  const projects = [
-    {
-      title: "Fitness Tracker App",
-      description: "A comprehensive fitness app with workout plans, nutrition tracking, and progress analytics.",
-      tags: ["React Native", "Firebase", "Redux"],
-      image: "/assets/images/project1.jpg",
-      links: [
-        { icon: <FiExternalLink />, url: "#" },
-        { icon: <FiGithub />, url: "#" }
-      ]
-    },
-    {
-      title: "E-commerce Mobile App",
-      description: "Complete shopping experience with product browsing, cart, and secure checkout.",
-      tags: ["Flutter", "Node.js", "MongoDB"],
-      image: "/assets/images/project2.jpg",
-      links: [
-        { icon: <FiExternalLink />, url: "#" },
-        { icon: <FiGithub />, url: "#" }
-      ]
-    },
-    {
-      title: "Social Media Platform",
-      description: "Connect with friends, share moments, and discover new content in this engaging app.",
-      tags: ["React Native", "GraphQL", "AWS"],
-      image: "/assets/images/project3.jpg",
-      links: [
-        { icon: <FiExternalLink />, url: "#" },
-        { icon: <FiGithub />, url: "#" }
-      ]
-    }
-  ];
-
   return (
     <section id="portfolio" className="py-20 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -51,7 +65,7 @@ const Portfolio = () => {
             Our <span className="text-purple-600">Work</span>
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            See how we've helped businesses like yours succeed in the mobile space
+            Explore a selection of our recent projects, each crafted to deliver exceptional value and innovation for our clients.
           </p>
         </motion.div>
 
@@ -64,18 +78,25 @@ const Portfolio = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group relative overflow-hidden rounded-xl shadow-lg"
+              className="group relative overflow-hidden rounded-xl shadow-lg bg-white dark:bg-gray-900"
             >
               {/* Project Image */}
-              <div className="h-64 bg-gradient-to-r from-purple-500 to-pink-500 flex items-center justify-center">
-                <div className="text-white text-xl font-bold">{project.title}</div>
+              <div className="relative h-64 w-full">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="h-64 w-full object-cover"
+                />
+                {/* <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-60 py-3 px-4">
+                  <span className="text-white text-lg font-semibold">{project.title}</span>
+                </div> */}
               </div>
-              
+
               {/* Project Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
-                <h3 className="text-white text-xl font-bold mb-2">{project.title}</h3>
-                <p className="text-gray-300 mb-4">{project.description}</p>
-                
+                <h3 className="text-black-700 text-xl font-bold mb-2">{project.title}</h3>
+                <p className="text-gray-400 mb-4">{project.description}</p>
+
                 {/* Tags */}
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag, i) => (
@@ -84,7 +105,7 @@ const Portfolio = () => {
                     </span>
                   ))}
                 </div>
-                
+
                 {/* Links */}
                 <div className="flex space-x-4">
                   {project.links.map((link, i) => (
@@ -104,7 +125,7 @@ const Portfolio = () => {
           ))}
         </div>
 
-        {/* View More Button */}
+        {/* View More Button
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -115,7 +136,7 @@ const Portfolio = () => {
           <button className="border border-purple-600 text-purple-600 dark:text-purple-400 dark:border-purple-400 px-8 py-3 rounded-lg font-medium hover:bg-purple-50 dark:hover:bg-gray-800 transition-colors">
             View All Projects
           </button>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );

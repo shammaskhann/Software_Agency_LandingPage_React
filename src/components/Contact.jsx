@@ -75,7 +75,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-900 dark:text-white mb-1">Email Us</h4>
-                    <p className="text-gray-600 dark:text-gray-400">contact@dexterapks.com</p>
+                    <p className="text-gray-600 dark:text-gray-400">dexterapkoffical@gmail.com</p>
                   </div>
                 </div>
 
@@ -85,7 +85,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-900 dark:text-white mb-1">Call Us</h4>
-                    <p className="text-gray-600 dark:text-gray-400">+1 (555) 123-4567</p>
+                    <p className="text-gray-600 dark:text-gray-400">+92 (334) 368-0373</p>
                   </div>
                 </div>
 
@@ -95,7 +95,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-900 dark:text-white mb-1">Visit Us</h4>
-                    <p className="text-gray-600 dark:text-gray-400">123 Tech Street, Silicon Valley, CA 94025</p>
+                    <p className="text-gray-600 dark:text-gray-400">21st Commercial Street,DHA Phase 2 ext,Karachi</p>
                   </div>
                 </div>
               </div>

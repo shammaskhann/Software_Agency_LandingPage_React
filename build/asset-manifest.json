@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Software_Agency_LandingPage_React/static/css/main.9b399c4e.css",
-    "main.js": "/Software_Agency_LandingPage_React/static/js/main.7d85c202.js",
-    "static/media/mockup.png": "/Software_Agency_LandingPage_React/static/media/mockup.aa509eec76ef361ed09e.png",
-    "static/media/logo.png": "/Software_Agency_LandingPage_React/static/media/logo.f52393ecfaa7f7ec5e31.png",
-    "static/media/Xirod.otf": "/Software_Agency_LandingPage_React/static/media/Xirod.b0023a75619009be9506.otf",
-    "index.html": "/Software_Agency_LandingPage_React/index.html",
-    "main.9b399c4e.css.map": "/Software_Agency_LandingPage_React/static/css/main.9b399c4e.css.map",
-    "main.7d85c202.js.map": "/Software_Agency_LandingPage_React/static/js/main.7d85c202.js.map"
+    "main.css": "/static/css/main.667ca272.css",
+    "main.js": "/static/js/main.e3dedb57.js",
+    "static/media/mockup.png": "/static/media/mockup.aa509eec76ef361ed09e.png",
+    "static/media/logo.png": "/static/media/logo.f52393ecfaa7f7ec5e31.png",
+    "static/media/Xirod.otf": "/static/media/Xirod.b0023a75619009be9506.otf",
+    "index.html": "/index.html",
+    "main.667ca272.css.map": "/static/css/main.667ca272.css.map",
+    "main.e3dedb57.js.map": "/static/js/main.e3dedb57.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b399c4e.css",
-    "static/js/main.7d85c202.js"
+    "static/css/main.667ca272.css",
+    "static/js/main.e3dedb57.js"
   ]
 }

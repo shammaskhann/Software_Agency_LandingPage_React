@@ -7,9 +7,10 @@
     "react-icons": "^5.5.0",
     "react-scripts": "^5.0.1",
     "react-scroll": "^1.9.3",
+    "typewriter-effect": "^2.22.0",
     "yup": "^1.6.1"
   },
-  "homepage": "https://shammaskhann.github.io/Software_Agency_LandingPage_React/",
+  "homepage": "https://www.dexterapk.online",
   "name": "dexter-apks-landing",
   "version": "1.0.0",
   "main": "tailwind.config.js",

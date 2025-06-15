@@ -35,7 +35,7 @@ const Header = () => {
           <motion.div 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            className="flex-shrink-0 flex items-center"
+            className="flex-shrink-0 flex items-center bg-white-400"
           >
             <img 
   src={logo} 
