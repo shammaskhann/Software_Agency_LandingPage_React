@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.667ca272.css",
-    "main.js": "/static/js/main.e3dedb57.js",
+    "main.css": "/static/css/main.aaf7f43a.css",
+    "main.js": "/static/js/main.cc275035.js",
+    "static/media/Shady.jpg": "/static/media/Shady.de91ccec281e5eb0b7fc.jpg",
     "static/media/mockup.png": "/static/media/mockup.aa509eec76ef361ed09e.png",
+    "static/media/Frame2016.jpeg": "/static/media/Frame2016.3f0e14c55dfb997cf3d8.jpeg",
+    "static/media/Frame2015.jpeg": "/static/media/Frame2015.34ec83ee785f3a9f4214.jpeg",
     "static/media/logo.png": "/static/media/logo.f52393ecfaa7f7ec5e31.png",
+    "static/media/Frame2014.jpeg": "/static/media/Frame2014.3d8cc48f6fd23cd1e7c4.jpeg",
+    "static/media/Frame2013.jpeg": "/static/media/Frame2013.763333b0c6bb97deb0c1.jpeg",
     "static/media/Xirod.otf": "/static/media/Xirod.b0023a75619009be9506.otf",
     "index.html": "/index.html",
-    "main.667ca272.css.map": "/static/css/main.667ca272.css.map",
-    "main.e3dedb57.js.map": "/static/js/main.e3dedb57.js.map"
+    "main.aaf7f43a.css.map": "/static/css/main.aaf7f43a.css.map",
+    "main.cc275035.js.map": "/static/js/main.cc275035.js.map"
   },
   "entrypoints": [
-    "static/css/main.667ca272.css",
-    "static/js/main.e3dedb57.js"
+    "static/css/main.aaf7f43a.css",
+    "static/js/main.cc275035.js"
   ]
 }
