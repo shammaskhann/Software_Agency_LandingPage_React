@@ -3,27 +3,27 @@ import { motion } from 'framer-motion';
 import { FiStar } from 'react-icons/fi';
 
 const Testimonials = () => {
-  const testimonials = [
+    const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: "CEO, FitnessPlus",
-      content: "Dexter Apks transformed our mobile presence. Their team delivered an app that exceeded our expectations and has significantly increased user engagement.",
+      name: "Ahmed Raza",
+      role: "Founder, Shady Beverage Co",
+      content: "Dexter Apks delivered a sleek and intuitive mobile app for our beverage startup. The ordering process is seamless and our customers love the new digital experience.",
       rating: 5,
-      image: "/assets/images/avatar1.jpg"
+      image: "/assets/images/avatar4.jpg"
     },
     {
-      name: "Michael Chen",
-      role: "Product Manager, ShopEasy",
-      content: "Working with Dexter Apks was a game-changer for our e-commerce platform. Their attention to detail and user experience focus is unparalleled.",
+      name: "Fatima Al-Sayed",
+      role: "Operations Manager, Car Fix Up",
+      content: "The Car Fix Up app has transformed our business operations. Real-time tracking and appointment scheduling have made our services more efficient and accessible.",
       rating: 5,
-      image: "/assets/images/avatar2.jpg"
+      image: "/assets/images/avatar5.jpg"
     },
     {
-      name: "Emily Rodriguez",
-      role: "Founder, SocialConnect",
-      content: "From concept to launch, Dexter Apks guided us through the entire process. Our app has been featured in the App Store multiple times thanks to their expertise.",
-      rating: 4,
-      image: "/assets/images/avatar3.jpg"
+      name: "Dr. Sameer Qureshi",
+      role: "Director, Smileline Dental Clinic",
+      content: "Our clinic's workflow has improved dramatically thanks to Dexter Apks. The app's appointment and reminder features have enhanced both patient care and administrative efficiency.",
+      rating: 5,
+      image: "/assets/images/avatar6.jpg"
     }
   ];
 

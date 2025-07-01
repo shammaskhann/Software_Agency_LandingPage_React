@@ -4,8 +4,10 @@ import { FiExternalLink, FiGithub } from 'react-icons/fi';
 import frame13 from '../assets/images/Frame2013.jpeg';
 import frame14 from '../assets/images/Frame2014.jpeg';
 import frame15 from '../assets/images/Frame2015.jpeg';
+import shady from '../assets/images/Shady.jpg';
 
 import frame16 from '../assets/images/Frame2016.jpeg';
+import { desc } from 'framer-motion/client';
 
 const projects = [
   {
@@ -43,10 +45,26 @@ const projects = [
       "Car Fix Up is a robust dual-role application for customers and vendors in the automotive service industry. It features appointment scheduling, live truck tracking for towing, real-time repair estimates, and emergency video calling. Built with Firebase and GetX, the app ensures secure authentication, real-time data, and seamless navigation.",
     tags: ["Flutter", "Firebase", "GetX"],
     image: frame13,
+    links: []
+    // links: [
+    //   { icon: <FiGithub />, url: "https://github.com/yourusername/car_fix_up" }
+    // ]
+  },
+  //Shady Beverage Co (A Rapid Prototype made for a iced tea beverage startup with ordering and menu features)
+  {
+    title: "Shady Beverage Co",
+    description:
+      "Shady Beverage Co is a rapid prototype mobile application designed for an iced tea beverage startup that features a user-friendly menu, ordering system, and payment integration. The app is built to enhance customer engagement and streamline the ordering process.",
+    tags: ["Flutter", "GetX"],
+    image: shady,
     links: [
-      { icon: <FiGithub />, url: "https://github.com/yourusername/car_fix_up" }
-    ]
+      { 
+        //https://www.youtube.com/watch?v=i1ZpYFWHqwQ
+        icon: <FiExternalLink />,
+        url: "https://www.youtube.com/watch?v=i1ZpYFWHqwQ"
+
   }
+    ]  },
 ];
 
 const Portfolio = () => {
