@@ -4,27 +4,27 @@ import { FiStar } from 'react-icons/fi';
 
 const Testimonials = () => {
     const testimonials = [
-    {
-      name: "Ahmed Raza",
+        {
+      name: " ",
       role: "Founder, Shady Beverage Co",
-      content: "Dexter Apks delivered a sleek and intuitive mobile app for our beverage startup. The ordering process is seamless and our customers love the new digital experience.",
+      content: "Dexter Apks provided us with a rapid prototype that perfectly visualized our concept for an iced tea ordering app. Their team quickly translated our requirements into a polished design, giving us a clear vision of what our future app could be.",
       rating: 5,
       image: "/assets/images/avatar4.jpg"
     },
     {
-      name: "Fatima Al-Sayed",
+      name: "Muhammad Adil ",
       role: "Operations Manager, Car Fix Up",
       content: "The Car Fix Up app has transformed our business operations. Real-time tracking and appointment scheduling have made our services more efficient and accessible.",
       rating: 5,
       image: "/assets/images/avatar5.jpg"
     },
-    {
-      name: "Dr. Sameer Qureshi",
-      role: "Director, Smileline Dental Clinic",
-      content: "Our clinic's workflow has improved dramatically thanks to Dexter Apks. The app's appointment and reminder features have enhanced both patient care and administrative efficiency.",
-      rating: 5,
-      image: "/assets/images/avatar6.jpg"
-    }
+    // {
+    //   name: "Dr. Sameer Qureshi",
+    //   role: "Director, Smileline Dental Clinic",
+    //   content: "Our clinic's workflow has improved dramatically thanks to Dexter Apks. The app's appointment and reminder features have enhanced both patient care and administrative efficiency.",
+    //   rating: 5,
+    //   image: "/assets/images/avatar6.jpg"
+    // }
   ];
 
   return (

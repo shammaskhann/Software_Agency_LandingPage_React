@@ -12,7 +12,7 @@ const Features = () => {
     {
       icon: <FiLayers className="w-8 h-8" />,
       title: "Cross-Platform",
-      description: "Build once, deploy everywhere with our React Native expertise."
+      description: "Build once, deploy everywhere with our Flutter expertise."
     },
     {
       icon: <FiSmartphone className="w-8 h-8" />,
